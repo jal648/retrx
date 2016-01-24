@@ -1,0 +1,17 @@
+{
+  "name": "retrx",
+  "version": "1.0.0",
+  "description": "Fun with rethink",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pd": "pulldown -o client"
+  },
+  "author": "Joel Leslie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "rethinkdb": "^2.2.1",
+    "socket.io": "^1.4.4"
+  }
+}
